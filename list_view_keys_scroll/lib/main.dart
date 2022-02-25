@@ -70,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
             return ListView(
               key: PageStorageKey(name),
               children: <Widget>[
-                ...data[name].map((value)=>Image.network(value.toString())).ToLIst()
+                ...data[name].map((value)=>Image.network(value.toString())).ToList()
               ],
             );
           }).toList(),
